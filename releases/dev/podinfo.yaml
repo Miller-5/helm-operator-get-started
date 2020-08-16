@@ -15,7 +15,7 @@ spec:
     ref: master
   values:
     image:
-      repository: gcr.io/echo2-285912
+      repository: gcr.io/echo2-285912/echo2
       tag: dev-hdtwcel9
     replicaCount: 1
     
