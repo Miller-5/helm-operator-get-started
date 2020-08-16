@@ -31,4 +31,6 @@ echo ">>>> Building image ${image} <<<<"
 
 docker build --build-arg GITCOMMIT=${commit} --build-arg VERSION=${version} -t ${image} -f Dockerfile.ci .
 
+docker tag
+
 docker push ${image}

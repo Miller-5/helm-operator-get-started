@@ -18,5 +18,4 @@ spec:
       repository: miller5/podinfo
       tag: dev-hdtwcel9
     replicaCount: 1
-    hpa:
-      enabled: false
+    
